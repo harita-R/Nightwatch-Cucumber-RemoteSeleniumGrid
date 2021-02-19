@@ -1,0 +1,98 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "google-search;searching-google",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Searching Google",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I open Google's search page",
+            "match": {
+              "location": "step-definitions\\google.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2901000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "the title is \"Google\"",
+            "match": {
+              "location": "step-definitions\\google.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the Google search form exists",
+            "match": {
+              "location": "step-definitions\\google.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I search \"nightwatch\" in search form",
+            "match": {
+              "location": "step-definitions\\google.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3690000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the search result matches \"nightwatch\"",
+            "match": {
+              "location": "step-definitions\\google.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 307000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 0,
+              "error_message": "ReferenceError: getNewScreenshots is not defined\n    at World.<anonymous> (E:\\NightwatchJS_2\\Nightwatch and Cucumber_2\\cucumber.conf.js:31:5)"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "google-search",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Google Search",
+    "tags": [],
+    "uri": "features\\google.feature"
+  }
+]

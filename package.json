@@ -1,0 +1,24 @@
+{
+  "name": "nightwatch-cucumber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "e2e-test": "mkdirp report && cucumber-js --require cucumber.conf.js --require step-definitions --format json:report/cucumber_report.json",
+    "remote-test": "cucumber-js  --require cucumber.conf.js --require step-definitions"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^7.0.0",
+    "chromedriver": "^88.0.0",
+    "cucumber-html-reporter": "^5.3.0",
+    "mkdirp": "^1.0.4",
+    "nightwatch": "^1.5.1",
+    "nightwatch-api": "^3.0.1",
+    "selenium-server": "^3.141.59"
+  },
+  "dependencies": {
+    "cucumber": "^7.0.0-rc.0"
+  }
+}
