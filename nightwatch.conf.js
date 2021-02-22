@@ -24,8 +24,8 @@ module.exports = {
             enabled : true,
             path : ""
           },
-          username : "haritagr16",
-          access_key : 'KhRUhWBtSMg06DfGkKDY1khYNJm95695WV42HfaYPot7nqQfw6',
+          username : "yourUsername",
+          access_key : 'yourAccessToken',
           skip_testcases_on_fail: false,
      
           desiredCapabilities: {
